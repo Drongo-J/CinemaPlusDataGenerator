@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bogus, Version=34.0.2.0, Culture=neutral, PublicKeyToken=fa1bb3f3f218129a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bogus.34.0.2\lib\net40\Bogus.dll</HintPath>
+    </Reference>
     <Reference Include="CloudinaryDotNet, Version=1.22.0.0, Culture=neutral, PublicKeyToken=c8234dc617ae7841, processorArchitecture=MSIL">
       <HintPath>..\packages\CloudinaryDotNet.1.22.0\lib\net452\CloudinaryDotNet.dll</HintPath>
     </Reference>
@@ -97,8 +100,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\Extensions.cs" />
+    <Compile Include="Helpers\FileHelper.cs" />
+    <Compile Include="Helpers\SqlStatementGenerator.cs" />
     <Compile Include="Models\Hall.cs" />
-    <Compile Include="Models\HallImage.cs" />
+    <Compile Include="Models\TheatreImage.cs" />
+    <Compile Include="Models\IEntity.cs" />
     <Compile Include="Models\Language.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Models\Seat.cs" />
@@ -113,10 +120,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Files\halls.json" />
+    <None Include="Files\movies.json" />
+    <None Include="Files\theatres.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Files\SqlInsertStatements\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Files\theatreImages.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,20 +1,12 @@
-﻿using Cinema.Core.Abstract;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CinemaDataGenerator.Models;
 
 namespace Cinema.Entities.Models
 {
-    public class HallImage:IEntity
+    public class TheatreImage : IEntity
     {
         public string Id { get; set; }
-
-        public string HallId { get; set; }
-
         public string ImageUrl { get; set; }
-
-        public virtual Hall? Hall { get; set; }
+        public string TheatreId { get; set; }
+        public virtual Theatre Theatre { get; set; }
     }
 }

@@ -1,4 +1,4 @@
-﻿using Cinema.Core.Abstract;
+﻿using CinemaDataGenerator.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,16 +7,12 @@ using System.Threading.Tasks;
 
 namespace Cinema.Entities.Models
 {
-    public class Seat:IEntity
+    public class Seat : IEntity
     {
         public string Id { get; set; }
-
         public string Number { get; set; }
-
         public bool IsAvailable { get; set; }
-
-        public string HallId { get; set; }
-
-        public virtual Hall? Hall { get; set; }
+        public string SessionId { get; set; }
+        public virtual Session Session { get; set; }
     }
 }

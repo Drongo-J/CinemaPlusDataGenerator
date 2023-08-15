@@ -1,4 +1,4 @@
-﻿using Cinema.Core.Abstract;
+﻿using CinemaDataGenerator.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,44 +7,26 @@ using System.Threading.Tasks;
 
 namespace Cinema.Entities.Models
 {
-    public class Movie:IEntity
+    public class Movie : IEntity
     {
         public string Id { get; set; }
-
-        public string? Title { get; set; }
-
-        public string? Year { get; set; }
-
-        public string? Released { get; set; }
-
-        public string? RunTime { get; set; }
-
-        public string? Genre { get; set; }
-
-        public string? Director { get; set; }
-
-        public string? Writer { get; set; }
-
-        public string? Actors { get; set; }
-
-        public string? Plot { get; set; }
-
-        public string? OriginalLanguage { get; set; }
-
-        public string? ProducerCountry { get; set; }
-
-        public string? Awards { get; set; }
-
-        public string? PosterUrl { get; set; }
-
-        public string? ImdbRating { get; set; }
-
-        //public string? Price { get; set; }
-
-        public string? TrailerUrl { get; set; }
-
-        public string? AgeLimit { get; set; }
-
-        public List<Subtitle> Subtitles { get; set; }
+        public string Title { get; set; }
+        public string Year { get; set; }
+        public string Released { get; set; }
+        public string RunTime { get; set; }
+        public string Genre { get; set; }
+        public string Director { get; set; }
+        public string Writer { get; set; }
+        public string Actors { get; set; }
+        public string Plot { get; set; }
+        public string ProducerCountry { get; set; }
+        public string Awards { get; set; }
+        public string PosterUrl { get; set; }
+        public string ImdbRating { get; set; }
+        public int Price { get; set; }
+        public string TrailerUrl { get; set; }
+        public string AgeLimit { get; set; }
+        public virtual List<Language> Languages { get; set; }
+        public virtual List<Subtitle> Subtitles { get; set; }
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CinemaDataGenerator.Models
 {
-    internal interface IEntity
+    public interface IEntity
     {
+
     }
 }
