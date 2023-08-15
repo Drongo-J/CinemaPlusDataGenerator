@@ -1,6 +1,4 @@
-﻿
-using Cinema.Entities.Models;
-using Nager.Country;
+﻿using Cinema.Entities.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;

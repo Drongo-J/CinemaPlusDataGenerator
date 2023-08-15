@@ -1,0 +1,16 @@
+C:\Users\Ayxan\source\repos\CinemaDataGenerator\CinemaDataGenerator\obj\Debug\CinemaDataGenerator.csproj.AssemblyReference.cache
+C:\Users\Ayxan\source\repos\CinemaDataGenerator\CinemaDataGenerator\obj\Debug\CinemaDataGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Ayxan\source\repos\CinemaDataGenerator\CinemaDataGenerator\bin\Debug\CinemaDataGenerator.exe.config
+C:\Users\Ayxan\source\repos\CinemaDataGenerator\CinemaDataGenerator\bin\Debug\CinemaDataGenerator.exe
+C:\Users\Ayxan\source\repos\CinemaDataGenerator\CinemaDataGenerator\bin\Debug\CinemaDataGenerator.pdb
+C:\Users\Ayxan\source\repos\CinemaDataGenerator\CinemaDataGenerator\bin\Debug\Bogus.dll
+C:\Users\Ayxan\source\repos\CinemaDataGenerator\CinemaDataGenerator\bin\Debug\CloudinaryDotNet.dll
+C:\Users\Ayxan\source\repos\CinemaDataGenerator\CinemaDataGenerator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ayxan\source\repos\CinemaDataGenerator\CinemaDataGenerator\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Ayxan\source\repos\CinemaDataGenerator\CinemaDataGenerator\bin\Debug\Bogus.xml
+C:\Users\Ayxan\source\repos\CinemaDataGenerator\CinemaDataGenerator\bin\Debug\CloudinaryDotNet.xml
+C:\Users\Ayxan\source\repos\CinemaDataGenerator\CinemaDataGenerator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ayxan\source\repos\CinemaDataGenerator\CinemaDataGenerator\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Ayxan\source\repos\CinemaDataGenerator\CinemaDataGenerator\obj\Debug\CinemaDataGenerator.csproj.CopyComplete
+C:\Users\Ayxan\source\repos\CinemaDataGenerator\CinemaDataGenerator\obj\Debug\CinemaDataGenerator.exe
+C:\Users\Ayxan\source\repos\CinemaDataGenerator\CinemaDataGenerator\obj\Debug\CinemaDataGenerator.pdb
