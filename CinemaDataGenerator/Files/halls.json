@@ -1,408 +1,350 @@
 [
   {
-    "Id": "5b9dfacb-e449-48ca-acce-4bf469899220",
+    "Id": "d1129a83-cb78-4f03-bd0c-e939cddc4142",
     "TheatreId": "ad01d4f8-e2cf-4be7-a6f9-2b7afa0ac564",
-    "Name": "Starlight Pavilion",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Allure Assembly",
+    "Seats": null
   },
   {
-    "Id": "2ad39153-e6d9-41a0-a715-290993c7bbae",
+    "Id": "76210ca1-7641-44ac-8ada-098df1320695",
     "TheatreId": "ad01d4f8-e2cf-4be7-a6f9-2b7afa0ac564",
-    "Name": "Cosmic Chamber",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Aurora Atrium",
+    "Seats": null
   },
   {
-    "Id": "f07ac32e-8ea6-453d-a11b-867959084845",
+    "Id": "02d98521-eec8-4f43-aeec-6c9aa2dca0bf",
     "TheatreId": "ad01d4f8-e2cf-4be7-a6f9-2b7afa0ac564",
-    "Name": "Radiant Oasis",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Azure Arcadia",
+    "Seats": null
   },
   {
-    "Id": "317999e8-038b-4393-9a10-41dfd3f61676",
+    "Id": "3cb774a1-fc8c-4a03-ae10-2e4006994a2c",
     "TheatreId": "ad01d4f8-e2cf-4be7-a6f9-2b7afa0ac564",
-    "Name": "Enchanted Atrium",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Blossom Ballroom",
+    "Seats": null
   },
   {
-    "Id": "21c5e292-ae44-40d6-b80f-e1ed0e5a0b0a",
+    "Id": "4e6198f9-c448-434d-a75e-313503edde8e",
     "TheatreId": "ad01d4f8-e2cf-4be7-a6f9-2b7afa0ac564",
-    "Name": "Moonbeam Hall",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Celestial Salon",
+    "Seats": null
   },
   {
-    "Id": "6f60d5db-60ec-4ec8-8cfe-75101e566c1f",
+    "Id": "d1553c90-f47a-42dd-b8fe-7134adf0fe3e",
     "TheatreId": "bc0fed18-2b75-46af-978e-e33aad82bd71",
-    "Name": "Starlight Pavilion",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Crown Jewel Hall",
+    "Seats": null
   },
   {
-    "Id": "de4e3766-c45d-4dc9-bf6d-3eb30af8fd1e",
+    "Id": "ea432980-df78-4327-8c6b-4aa8db7d8301",
     "TheatreId": "bc0fed18-2b75-46af-978e-e33aad82bd71",
-    "Name": "Cosmic Chamber",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Crystal Cascade",
+    "Seats": null
   },
   {
-    "Id": "c73e25de-5652-4c84-980a-38617ae23c3f",
+    "Id": "12ca3d99-9509-4177-81bb-72a7a9910cf7",
     "TheatreId": "bc0fed18-2b75-46af-978e-e33aad82bd71",
-    "Name": "Radiant Oasis",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Crystal Pavilion",
+    "Seats": null
   },
   {
-    "Id": "4e43cbdc-87e2-4689-8d5e-5fa4a3066994",
+    "Id": "c9c09bc6-5af1-44a8-9627-8cadcd1447e0",
     "TheatreId": "bc0fed18-2b75-46af-978e-e33aad82bd71",
-    "Name": "Enchanted Atrium",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Diamond Dunes",
+    "Seats": null
   },
   {
-    "Id": "088f0074-58a3-40fe-92db-05e89796fe0f",
+    "Id": "fec37551-d5cf-4314-81ab-606ab98ccf28",
     "TheatreId": "bc0fed18-2b75-46af-978e-e33aad82bd71",
-    "Name": "Moonbeam Hall",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Dreamers' Domain",
+    "Seats": null
   },
   {
-    "Id": "6cbe430e-4c79-4e97-a042-13a70b54771a",
+    "Id": "4dff0193-0f91-47ac-a8d9-b5b8b1183e92",
     "TheatreId": "bc0fed18-2b75-46af-978e-e33aad82bd71",
-    "Name": "Celestial Court",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Elegance Emporium",
+    "Seats": null
   },
   {
-    "Id": "b2bd8e8b-02f2-475b-ad40-5202cf586e17",
+    "Id": "3af1482a-8e46-41cc-a82a-83589f75b4af",
     "TheatreId": "bc0fed18-2b75-46af-978e-e33aad82bd71",
-    "Name": "Aurora Terrace",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Elysian Eden",
+    "Seats": null
   },
   {
-    "Id": "6ac4ac0b-439d-4f56-9c3c-cb79237ea012",
+    "Id": "e8b90883-df5b-426d-9426-4865e56e7df0",
     "TheatreId": "d9843f0d-f129-41f4-ba84-0f6d0a96cfaa",
-    "Name": "Starlight Pavilion",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Emerald Chamber",
+    "Seats": null
   },
   {
-    "Id": "535feb22-cae7-4ad0-9124-a01ace7fc114",
+    "Id": "0dce36af-0c16-41dc-8b52-048759124bbd",
     "TheatreId": "d9843f0d-f129-41f4-ba84-0f6d0a96cfaa",
-    "Name": "Cosmic Chamber",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Enchanted Echo Hall",
+    "Seats": null
   },
   {
-    "Id": "19e0b539-3d9b-4eca-93de-124aa60eae0d",
+    "Id": "1aa78f95-615c-4431-86b0-919bd9b5e1c0",
     "TheatreId": "d9843f0d-f129-41f4-ba84-0f6d0a96cfaa",
-    "Name": "Radiant Oasis",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Enchanted Elegance",
+    "Seats": null
   },
   {
-    "Id": "f8bf1dad-e2cb-4a1e-b25e-6919c771e479",
+    "Id": "8b7593de-96ff-4205-a97a-8feb95995690",
     "TheatreId": "d9843f0d-f129-41f4-ba84-0f6d0a96cfaa",
-    "Name": "Enchanted Atrium",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Enchanted Hall",
+    "Seats": null
   },
   {
-    "Id": "d4b6698f-1674-4ac0-a232-a8730b317389",
+    "Id": "2887ceb0-3e56-4fe5-b5d3-be2e05e6a87b",
     "TheatreId": "71d9027c-cce3-4096-9a5f-55eeb899321c",
-    "Name": "Starlight Pavilion",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Ethereal Essence",
+    "Seats": null
   },
   {
-    "Id": "64463495-7a5f-43ae-90f3-dc918fa92672",
+    "Id": "b7a0d89b-03c8-43a2-83d8-36a7f00cec1e",
     "TheatreId": "71d9027c-cce3-4096-9a5f-55eeb899321c",
-    "Name": "Cosmic Chamber",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Gilded Gardens",
+    "Seats": null
   },
   {
-    "Id": "9bc8ff91-c7b8-4f8c-9a6e-e8cc032c06fa",
+    "Id": "de5ead49-a874-4ffc-bd1c-246be0935234",
     "TheatreId": "71d9027c-cce3-4096-9a5f-55eeb899321c",
-    "Name": "Radiant Oasis",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Golden Gala Hall",
+    "Seats": null
   },
   {
-    "Id": "ad23825a-e1e4-4d4c-8fa9-047de997a973",
+    "Id": "9cc0f1f7-213a-4e4e-a5a1-d46614c57bd3",
     "TheatreId": "71d9027c-cce3-4096-9a5f-55eeb899321c",
-    "Name": "Enchanted Atrium",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Golden Gate Hall",
+    "Seats": null
   },
   {
-    "Id": "65285441-d1bc-4f8f-aef1-35746b916a14",
+    "Id": "3683e9fe-59af-4286-94de-c3b2a3b7cd08",
     "TheatreId": "71d9027c-cce3-4096-9a5f-55eeb899321c",
-    "Name": "Moonbeam Hall",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Graceful Grove",
+    "Seats": null
   },
   {
-    "Id": "877cac90-cad8-4629-a219-892288729efe",
+    "Id": "c884fed3-d8ba-499e-b3d8-2c52e8ab2497",
     "TheatreId": "71d9027c-cce3-4096-9a5f-55eeb899321c",
-    "Name": "Celestial Court",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Grand Ballroom",
+    "Seats": null
   },
   {
-    "Id": "c23d62b2-206b-4dea-81b1-4c18b358cf77",
+    "Id": "851a35b9-4253-4374-8691-3d6700c59ce4",
+    "TheatreId": "71d9027c-cce3-4096-9a5f-55eeb899321c",
+    "Name": "Harmony Haven",
+    "Seats": null
+  },
+  {
+    "Id": "dc9c4c32-72ce-4391-b71a-9b1ec604e667",
     "TheatreId": "a6c7b899-9261-4857-ae3f-10bf3a77c8c1",
-    "Name": "Starlight Pavilion",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Imperial Plaza",
+    "Seats": null
   },
   {
-    "Id": "f9f1b537-a65e-4ac2-840b-4499fa9553fc",
+    "Id": "90030a7b-4a5c-48bb-8735-523739097a91",
     "TheatreId": "a6c7b899-9261-4857-ae3f-10bf3a77c8c1",
-    "Name": "Cosmic Chamber",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Ivory Isle",
+    "Seats": null
   },
   {
-    "Id": "6079cb6f-7b7d-4d0d-9f86-802c6209193e",
+    "Id": "96456f43-1af4-4e93-abfc-2d23dce50c1f",
     "TheatreId": "a6c7b899-9261-4857-ae3f-10bf3a77c8c1",
-    "Name": "Radiant Oasis",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Majestic Manor",
+    "Seats": null
   },
   {
-    "Id": "0d1bdd49-547f-4305-ab5c-ed339a2fb51b",
-    "TheatreId": "a6c7b899-9261-4857-ae3f-10bf3a77c8c1",
-    "Name": "Enchanted Atrium",
-    "Seats": null,
-    "HallImages": null
-  },
-  {
-    "Id": "78a271d7-7802-4db9-99d7-51f47590001b",
+    "Id": "2dc32c79-cf85-40f6-9afd-4b6db4d900f1",
     "TheatreId": "bcdcc140-5002-4693-960c-a3284fca98c6",
-    "Name": "Starlight Pavilion",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Midnight Mirage",
+    "Seats": null
   },
   {
-    "Id": "c44ea558-3fc8-4408-afb7-485e87ea12b5",
+    "Id": "58ead68a-2ef5-4dd9-89fa-484ab2adf50e",
     "TheatreId": "bcdcc140-5002-4693-960c-a3284fca98c6",
-    "Name": "Cosmic Chamber",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Mirage Meadows",
+    "Seats": null
   },
   {
-    "Id": "acc252dd-e514-458f-b6d1-fc2651d81ec2",
+    "Id": "941ca969-1183-497a-b811-ad001f95dfa3",
     "TheatreId": "bcdcc140-5002-4693-960c-a3284fca98c6",
-    "Name": "Radiant Oasis",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Moonlit Mirage",
+    "Seats": null
   },
   {
-    "Id": "d37dc350-bdaa-4c03-b40e-c3d90fe11dbe",
+    "Id": "ae1bf47c-c312-469b-a167-7d8461f8a307",
     "TheatreId": "bcdcc140-5002-4693-960c-a3284fca98c6",
-    "Name": "Enchanted Atrium",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Moonstone Mansion",
+    "Seats": null
   },
   {
-    "Id": "573ce215-edfd-40cd-8739-71efcabf7edf",
+    "Id": "b091fbd1-b0f5-4994-be81-9bb94ab396ad",
     "TheatreId": "bcdcc140-5002-4693-960c-a3284fca98c6",
-    "Name": "Moonbeam Hall",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Oasis Occasion",
+    "Seats": null
   },
   {
-    "Id": "c564a843-3344-460b-a769-8a5d982d93fb",
-    "TheatreId": "bcdcc140-5002-4693-960c-a3284fca98c6",
-    "Name": "Celestial Court",
-    "Seats": null,
-    "HallImages": null
-  },
-  {
-    "Id": "e5844381-b6af-44a9-a9f7-ce0e2e4645a8",
-    "TheatreId": "bcdcc140-5002-4693-960c-a3284fca98c6",
-    "Name": "Aurora Terrace",
-    "Seats": null,
-    "HallImages": null
-  },
-  {
-    "Id": "aba5f0ef-13ff-48b8-a8df-8a89e6fe1006",
-    "TheatreId": "bcdcc140-5002-4693-960c-a3284fca98c6",
-    "Name": "Twilight Nexus",
-    "Seats": null,
-    "HallImages": null
-  },
-  {
-    "Id": "309affd8-a1bb-4c48-94dd-2b5d611b1a78",
+    "Id": "827d4001-4926-4ef9-ae43-5883f4ea8e90",
     "TheatreId": "24709fc9-0940-458d-9569-1abbc2afd966",
-    "Name": "Starlight Pavilion",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Opal Oasis",
+    "Seats": null
   },
   {
-    "Id": "17a83301-ed84-44db-b191-19f9333693e2",
+    "Id": "fa188c84-342e-4b26-83c8-ff8ad37808d2",
     "TheatreId": "24709fc9-0940-458d-9569-1abbc2afd966",
-    "Name": "Cosmic Chamber",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Opulent Outpost",
+    "Seats": null
   },
   {
-    "Id": "a2173b75-f7ee-4fac-a288-6930afe06765",
+    "Id": "4375998d-ad19-458e-9234-8e0a17079c35",
     "TheatreId": "24709fc9-0940-458d-9569-1abbc2afd966",
-    "Name": "Radiant Oasis",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Pearl Plaza",
+    "Seats": null
   },
   {
-    "Id": "91c751b8-af10-407e-b881-711c290d4de1",
+    "Id": "8f363aaf-1551-473a-95ff-7bac48c9eac9",
     "TheatreId": "24709fc9-0940-458d-9569-1abbc2afd966",
-    "Name": "Enchanted Atrium",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Pearl Promenade",
+    "Seats": null
   },
   {
-    "Id": "187e83a1-31bc-4878-89f8-4b6d68986941",
+    "Id": "693932bd-f9dd-460b-9fdb-22dd509333e4",
     "TheatreId": "24709fc9-0940-458d-9569-1abbc2afd966",
-    "Name": "Moonbeam Hall",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Radiance Hall",
+    "Seats": null
   },
   {
-    "Id": "471f6cb9-01ba-464a-bccc-7cbb40b9f87a",
+    "Id": "66bd671e-ba7b-4d72-8d2b-26212fae0e75",
+    "TheatreId": "24709fc9-0940-458d-9569-1abbc2afd966",
+    "Name": "Radiant Gardens",
+    "Seats": null
+  },
+  {
+    "Id": "13a71392-4d42-4993-a8d7-146529687680",
     "TheatreId": "4bae2289-8eab-47c0-ad39-9414ef47bce8",
-    "Name": "Starlight Pavilion",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Reflections Retreat",
+    "Seats": null
   },
   {
-    "Id": "5466099b-79ea-493f-84b8-ab14b1496976",
+    "Id": "2f35f9c3-473d-46c1-a60b-da480e018cd3",
     "TheatreId": "4bae2289-8eab-47c0-ad39-9414ef47bce8",
-    "Name": "Cosmic Chamber",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Regal Haven",
+    "Seats": null
   },
   {
-    "Id": "2d20b245-3a50-4ecd-8e4f-726c60e68edd",
+    "Id": "afa908bc-8301-4715-b24e-ad3571e8a47c",
     "TheatreId": "4bae2289-8eab-47c0-ad39-9414ef47bce8",
-    "Name": "Radiant Oasis",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Regal Palace",
+    "Seats": null
   },
   {
-    "Id": "2ab7df2a-0a28-4965-8c50-8951692b8045",
+    "Id": "e9869108-67f7-436e-b132-2bdb780f8c08",
     "TheatreId": "4bae2289-8eab-47c0-ad39-9414ef47bce8",
-    "Name": "Enchanted Atrium",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Renaissance Hall",
+    "Seats": null
   },
   {
-    "Id": "55b43fb2-a0d9-493b-ac64-291954b043fd",
+    "Id": "9af51b95-3b3c-4b36-9a63-2781cbfd2ece",
     "TheatreId": "4bae2289-8eab-47c0-ad39-9414ef47bce8",
-    "Name": "Moonbeam Hall",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Royal Reflections",
+    "Seats": null
   },
   {
-    "Id": "a4892086-2028-4588-81e1-bbb96cf3614c",
+    "Id": "f4ffb7c3-ac36-43b1-8b4e-5cadede7838a",
     "TheatreId": "4bae2289-8eab-47c0-ad39-9414ef47bce8",
-    "Name": "Celestial Court",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Royal Ridge Hall",
+    "Seats": null
   },
   {
-    "Id": "0339aba5-e529-491b-8f58-903f00bc1fe5",
+    "Id": "9cabb9f9-050b-440e-a80b-6f13fe68ad58",
+    "TheatreId": "4bae2289-8eab-47c0-ad39-9414ef47bce8",
+    "Name": "Sapphire Hall",
+    "Seats": null
+  },
+  {
+    "Id": "eca2bbc3-c2d5-4a83-ac3c-b1952cb1fa45",
     "TheatreId": "3878b117-48de-4688-a54b-55196dd49f37",
-    "Name": "Starlight Pavilion",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Sapphire Springs",
+    "Seats": null
   },
   {
-    "Id": "3f59f27f-1025-44ba-9665-51c9da7ed4c3",
+    "Id": "96e0929e-f717-477b-91b8-71ab05647de0",
     "TheatreId": "3878b117-48de-4688-a54b-55196dd49f37",
-    "Name": "Cosmic Chamber",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Serenity Sanctuary",
+    "Seats": null
   },
   {
-    "Id": "affd7c8c-602d-4274-a3f8-c1b389e9301c",
+    "Id": "7e200350-0ee3-4056-b952-6c4c0c199ef0",
     "TheatreId": "3878b117-48de-4688-a54b-55196dd49f37",
-    "Name": "Radiant Oasis",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Silver Lining Hall",
+    "Seats": null
   },
   {
-    "Id": "952acc1a-edc7-409a-a553-ade1e7862144",
+    "Id": "a3f83b5b-f8da-4ca6-aee6-d97213b79006",
     "TheatreId": "3878b117-48de-4688-a54b-55196dd49f37",
-    "Name": "Enchanted Atrium",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Starlight Auditorium",
+    "Seats": null
   },
   {
-    "Id": "28dd4f01-d829-474c-a1f7-6ec25ab09217",
+    "Id": "191b784c-1140-4bb2-9339-e6a8254bcd7c",
     "TheatreId": "3878b117-48de-4688-a54b-55196dd49f37",
-    "Name": "Moonbeam Hall",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Starry Skies Pavilion",
+    "Seats": null
   },
   {
-    "Id": "61aa2da0-5ddd-40b7-8cd7-cd3683f21fed",
-    "TheatreId": "eae690b3-ff2a-4fe5-9cb9-67a369170db0",
-    "Name": "Starlight Pavilion",
-    "Seats": null,
-    "HallImages": null
+    "Id": "d9eaa932-aadc-4541-814c-a93e8915dc9b",
+    "TheatreId": "3878b117-48de-4688-a54b-55196dd49f37",
+    "Name": "Tranquil Terrace",
+    "Seats": null
   },
   {
-    "Id": "0635b8fa-83cd-435d-b48a-c12a8df86498",
+    "Id": "de1d5267-d99e-4af1-a6c9-3fc35aaba779",
     "TheatreId": "eae690b3-ff2a-4fe5-9cb9-67a369170db0",
-    "Name": "Cosmic Chamber",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Tranquility Hall",
+    "Seats": null
   },
   {
-    "Id": "3d1ac87d-7d98-4200-ac77-006fe8db7f62",
+    "Id": "e5ff672d-459e-41c5-8c93-6cc278eb3ccf",
     "TheatreId": "eae690b3-ff2a-4fe5-9cb9-67a369170db0",
-    "Name": "Radiant Oasis",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Twilight Terrace",
+    "Seats": null
   },
   {
-    "Id": "0597720f-7ab7-4cb1-9294-0f1087278324",
+    "Id": "46a0cce0-866d-4223-878a-1617a417aeff",
     "TheatreId": "eae690b3-ff2a-4fe5-9cb9-67a369170db0",
-    "Name": "Enchanted Atrium",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Velvet Vista",
+    "Seats": null
   },
   {
-    "Id": "fbc17e26-ede1-41a3-a060-b37c8b25aa34",
+    "Id": "aae6fd58-20d8-4c63-b6f7-d45c13636bc5",
     "TheatreId": "eae690b3-ff2a-4fe5-9cb9-67a369170db0",
-    "Name": "Moonbeam Hall",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Velvet Vortex",
+    "Seats": null
   },
   {
-    "Id": "b1fd7001-efef-4f94-ad74-f8d33c0cf789",
+    "Id": "8e29de7b-909b-4a2d-b06a-5b3e473c6e32",
     "TheatreId": "eae690b3-ff2a-4fe5-9cb9-67a369170db0",
-    "Name": "Celestial Court",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Victorian Veranda",
+    "Seats": null
   },
   {
-    "Id": "00292deb-6025-4344-85ce-ccfdd06afdb0",
+    "Id": "a8445d8a-2721-468c-ae99-a24583d67547",
     "TheatreId": "eae690b3-ff2a-4fe5-9cb9-67a369170db0",
-    "Name": "Aurora Terrace",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Vintage Vault",
+    "Seats": null
   },
   {
-    "Id": "2f8322bc-7055-4ede-a7da-24655865c869",
+    "Id": "4400d93c-4f93-4eab-889a-a9143e531879",
     "TheatreId": "eae690b3-ff2a-4fe5-9cb9-67a369170db0",
-    "Name": "Twilight Nexus",
-    "Seats": null,
-    "HallImages": null
+    "Name": "Whispering Pines Hall",
+    "Seats": null
+  },
+  {
+    "Id": "02dfb878-4e0f-4f45-acec-edc5382bfdf5",
+    "TheatreId": "eae690b3-ff2a-4fe5-9cb9-67a369170db0",
+    "Name": "Whispering Willow Hall",
+    "Seats": null
   }
 ]

@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CinemaDataGenerator",
+    "\\CinemaDataGenerator\\Files",
+    "\\CinemaDataGenerator\\Files\\SqlInsertStatements",
+    "\\CinemaDataGenerator\\Helpers"
+  ],
+  "SelectedNode": "\\CinemaDataGenerator\\Files\\movies.json",
+  "PreviewInSolutionExplorer": false
+}

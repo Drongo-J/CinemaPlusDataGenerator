@@ -22,8 +22,63 @@ namespace CinemaDataGenerator
         static async Task Main(string[] args)
         {
             // Uncomment this if there are no movies in Files/movies.json files
-            //var movies = await GetMovies(60);
-            //WriteMoviesToFile(movies); // Save Movie Data in File
+            var movies = await GetMovies(200);
+            WriteMoviesToFile(movies); // Save Movie Data in Filea
+
+            //var hallNames = FileHelper<string>.ReadTextFile(Path.Combine("~/../../../Files", "hallNames.txt"));
+
+            // hallNames.Sort();
+            //foreach (var a in hallNames)
+            //{
+            //    //await Console.Out.WriteLineAsync(a);
+            //    //Console.WriteLine(a + " " + hallNames.Where(v => v == a).Count());
+            //}
+
+            //Console.WriteLine(hallNames.Count);
+            //var halls = new List<Hall>();
+            //hallNames.ForEach(h =>
+            //{
+            //    halls.Add(new Hall()
+            //    {
+            //        Id = Guid.NewGuid().ToString(),
+            //        Name = h,
+            //        Seats = null
+            //    });
+            //});
+
+            //var p = Path.Combine("~/../../../Files", "theatres.json");
+            //Console.WriteLine(p);
+            //var theatres = FileHelper<Theatre>.Deserialize(p);
+            //var hallCounts = new int[] { 5, 7, 4, 7, 3, 5, 6, 7, 6, 8 };
+            //int currentIndex = 0;
+            //var r = new List<Hall>();
+            //await Console.Out.WriteLineAsync("theatres.Count" + theatres.Count.ToString());
+            //for (int i = 0; i < theatres.Count; i++)
+            //{
+            //    var hallCount = hallCounts[i];
+
+            //    var myhalls = halls.Take(hallCount);
+            //    await Console.Out.WriteLineAsync(myhalls.Count().ToString());
+            //    await Console.Out.WriteLineAsync(halls.Count.ToString());
+            //    await Console.Out.WriteLineAsync(halls.Count.ToString());
+
+            //    foreach (var vc in myhalls)
+            //    {
+            //        vc.TheatreId = theatres[i].Id;
+            //        r.Add(vc);
+            //        currentIndex++;
+            //    }
+            //    halls.RemoveRange(0, hallCount);
+            //}
+            //await Console.Out.WriteLineAsync("currentIndex" + currentIndex.ToString());
+            //await Console.Out.WriteLineAsync(r.Count.ToString());
+            //foreach (var a in r)
+            //{
+            //    Console.WriteLine(a.Name + " " + r.Where(v => v.Name == a.Name).Count());
+            //}
+            //Console.WriteLine(r.Count);
+
+            //FileHelper<Hall>.Serialize(r, Path.Combine("~/../../../Files", "halls.json"));
 
             string resultPath = string.Empty;
 
@@ -57,6 +112,9 @@ namespace CinemaDataGenerator
             resultPath = result.Path;
             ShowSuccessMessage("Generated Statements for Sessions Successfully!");
             ShowSuccessMessage($"Result Path : {resultPath}");
+
+            var path = Path.Combine("~/../../../Files", "sessions.json");
+            FileHelper<Session>.Serialize(result.Sessions, path);
 
             ShowStatusMessage("\nGenerating SQL Insert Statements for Seats . . .");
             resultPath = GenerateSqlInsertStatementsForSeats(result.Sessions, "seatsInsertStatements.sql");
@@ -188,10 +246,21 @@ namespace CinemaDataGenerator
             var insertStatements = new List<string>();
             foreach (var theatre in theatres)
             {
-                foreach (var hall in halls)
+                var myHalls = halls.Where(h => h.TheatreId == theatre.Id);
+                //var myhalls = halls.GetRandomDistinctItems(new Random().Next(0, halls.Count));
+                //foreach (var m in myhalls)
+                //{
+                //    Console.WriteLine(m.Id);
+                //}
+                //Console.WriteLine();
+                foreach (var hall in myHalls)
                 {
-                    for (int i = 0; i < 7; i++)
+                    var allDays = new int[] { 0, 1, 2, 3, 4, 5, 6 };
+                    var randomDays = allDays.ToList().GetRandomDistinctItems(new Random().Next(3, allDays.Count()));
+
+                    for (int a = 0; a < randomDays.Count; a++)
                     {
+                        var i = randomDays[a];
                         var randomMoviesForHall = movies.GetRandomDistinctItems(4);
 
                         TimeSpan[] timeOffsets = new TimeSpan[]
@@ -201,6 +270,7 @@ namespace CinemaDataGenerator
                             TimeSpan.FromHours(7),
                             TimeSpan.FromHours(10.5)
                         };
+
 
                         for (int j = 0; j < randomMoviesForHall.Count; j++)
                         {
@@ -311,19 +381,30 @@ namespace CinemaDataGenerator
                 int successfulCount = 0;
                 foreach (var movieName in trendingMovieNames)
                 {
-                    var movieTrailerUrl = await MovieService.GetTrailerUrlAsync(movieName);
-                    if (movieTrailerUrl != null)
+                    try
                     {
-                        movieTrailers[movieName] = movieTrailerUrl;
-                        successfulCount++;
+                        var movieTrailerUrl = await MovieService.GetTrailerUrlAsync(movieName);
+                        if (movieTrailerUrl != null)
+                        {
+                            movieTrailers[movieName] = movieTrailerUrl;
+                            successfulCount++;
+                        }
+                        else
+                        {
+                            movieTrailers[movieName] = string.Empty;
+                            ShowErrorMessage($"An error occured while getting movie trailer for \"{movieName}\". String.Empty was set for Movie Trailer . . .");
+                            Console.WriteLine(movieTrailers[movieName]);
+                        }
                     }
-                    else
+                    catch (Exception)
                     {
                         movieTrailers[movieName] = string.Empty;
-                        ShowErrorMessage($"An error occured while getting movie trailer for \"{movieName}\". String.Empty was set for Movie Trailer . . .");
+                        ShowErrorMessage($"Exception : An error occured while getting movie trailer for \"{movieName}\". String.Empty was set for Movie Trailer . . .");
+                        Console.WriteLine(movieTrailers[movieName]);
                     }
+
                 }
-                Console.WriteLine($"Movie Trailer Count Fetched Successfully : {successfulCount}");
+                Console.WriteLine($"Movie Trailer Count Fetched Successfully : {movieTrailers.Where(m => m.Value != string.Empty).Count()}");
                 ShowSuccessMessage("Retrieved Movie Trailers Successfully!");
 
 
@@ -335,6 +416,7 @@ namespace CinemaDataGenerator
                     var movie = await MovieService.GetBestMatchingMovieAsync(movieName);
                     if (movie != null)
                     {
+                        movie.TrailerUrl = movieTrailers[movieName];
                         movies.Add(movie);
                     }
                 }

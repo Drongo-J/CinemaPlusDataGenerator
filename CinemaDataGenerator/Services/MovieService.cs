@@ -82,7 +82,7 @@ namespace CinemaDataGenerator.Services
                     FlagUrl = GetLanguageCode(l.Trim()) == null ? "https://media.aykhan.net/assets/images/step-it-academy/diploma-project/flags/512/not-found.png" : flagUrlRoot + GetLanguageCode(l.Trim()) + imageFormat
                 }).ToList();
                 mymovie.Price = GetMoviePrice(mymovie);
-                mymovie.AgeLimit = GetAgeLimit(GetValue(singleData.AgeLimit));
+                mymovie.AgeLimit = GetAgeLimit(GetValue(singleData.Rated));
                 mymovie.Subtitles = GetSubtitles(mymovie.Id);
 
                 return mymovie;

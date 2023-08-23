@@ -125,10 +125,18 @@
     <None Include="Files\theatres.json" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Files\SqlInsertStatements\" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="Files\hallNames.txt" />
+    <Content Include="Files\SqlInsertStatements\hallInsertStatements.sql" />
+    <Content Include="Files\SqlInsertStatements\languagesInsertStatements.sql" />
+    <Content Include="Files\SqlInsertStatements\movieInsertStatements.sql" />
+    <Content Include="Files\SqlInsertStatements\seatsInsertStatements.sql" />
+    <Content Include="Files\SqlInsertStatements\sessionsInsertStatements.sql" />
+    <Content Include="Files\SqlInsertStatements\subtitlesInsertStatements.sql" />
+    <Content Include="Files\SqlInsertStatements\theatreImagesInsertStatements.sql" />
+    <Content Include="Files\SqlInsertStatements\theatreInsertStatements.sql" />
+    <Content Include="Files\SqlInsertStatements\ticketsInsertStatements.sql" />
     <Content Include="Files\theatreImages.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
